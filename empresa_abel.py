@@ -21,7 +21,7 @@ class Empresa:
         nome_removido = str(input("Digite o nome do funcionário que você quer deletar: "))
         for funcionario in self.lista_de_funcionarios:
             if funcionario.nome == nome_removido:
-                self.lista_de_funcionarios.remove(nome_removido)
+                self.lista_de_funcionarios.remove(funcionario)
     
     def listar_funcionarios(self):
         for funcionario in self.lista_de_funcionarios:
