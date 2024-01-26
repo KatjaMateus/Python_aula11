@@ -4,16 +4,16 @@ class Calculadora:
         self.n2 = n2
     
     def somar(self):
-        print(f"O resultado é {self.n1 + self.n2}.")
+        return(f"O resultado é {self.n1 + self.n2}.")
     
     def subtrair(self):
-        print(f"O resultado é {self.n1 - self.n2}.")
+        return(f"O resultado é {self.n1 - self.n2}.")
     
     def multiplicar(self):
-        print(f"O resultado é {self.n1 * self.n2}.")
+        return(f"O resultado é {self.n1 * self.n2}.")
     
     def dividir(self):
-        print(f"O resultado é {self.n1 / self.n2}.")
+        return(f"O resultado é {self.n1 / self.n2}.")
 
 
 while True:
