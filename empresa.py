@@ -20,7 +20,7 @@ class Empresa:
         nome_removido = str(input("Digite o nome do funcionario a deletar> "))
         for funcionario in self.lista_funcionarios:
             if funcionario.nome == nome_removido:    #procura nome tal de variavel funcionario
-                self.lista_funcionarios.remove(nome_removido)
+                self.lista_funcionarios.remove(funcionario)
     
     def lista_funcionarios(self):
         for funcionario in self.lista_funcionarios:
